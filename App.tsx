@@ -72,6 +72,11 @@ function App(): React.JSX.Element {
    */
   const safePadding = '5%';
 
+  // Check if Fabric (New Architecture) is enabled
+  const isFabricEnabled = 
+    typeof (global as any).nativeFabricUIManager !== 'undefined' ||
+    typeof (global as any).__turboModuleProxy !== 'undefined';
+
   return (
     <View style={backgroundStyle}>
       <StatusBar
@@ -89,6 +94,11 @@ function App(): React.JSX.Element {
             paddingHorizontal: safePadding,
             paddingBottom: safePadding,
           }}>
+          <Section title="Fabric Status">
+            <Text style={[styles.highlight, {color: isFabricEnabled ? '#4CAF50' : '#F44336'}]}>
+              {isFabricEnabled ? 'Habilitado.' : 'Deshabilitado.'}
+            </Text>
+          </Section>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
