@@ -24,15 +24,15 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.ReactNative.Cxx": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "h6E7ohWYsu/bP79FlLS1LtFhRh29kHi3WxjD60CJYv2cBtEiFaElxfESCAXXjoJKYPTv29GTbJAJw7/T0oAUqQ==",
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "d1bRbaozh3h0F9+Urg8QMQmlB1OFhOPumDjP2d51KqROeylSbp8Wo5pNRich8VGUKpM6QurVXNsjcydYqi47Dg==",
         "dependencies": {
-          "Microsoft.ReactNative": "0.78.15-Fabric"
+          "Microsoft.ReactNative": "0.78.14-Fabric"
         }
       },
       "Microsoft.VCRTForwarders.140": {
@@ -53,8 +53,8 @@
       "clipboard": {
         "type": "Project",
         "dependencies": {
-          "Microsoft.ReactNative": "[0.78.15-Fabric, )",
-          "Microsoft.ReactNative.Cxx": "[0.78.15-Fabric, )",
+          "Microsoft.ReactNative": "[0.78.14-Fabric, )",
+          "Microsoft.ReactNative.Cxx": "[0.78.14-Fabric, )",
           "Microsoft.VCRTForwarders.140": "[1.0.2-rc, )",
           "Microsoft.WindowsAppSDK": "[1.7.250401001, )",
           "boost": "[1.83.0, )"
@@ -63,8 +63,18 @@
       "reactnativeasyncstorage": {
         "type": "Project",
         "dependencies": {
-          "Microsoft.ReactNative": "[0.78.15-Fabric, )",
-          "Microsoft.ReactNative.Cxx": "[0.78.15-Fabric, )",
+          "Microsoft.ReactNative": "[0.78.14-Fabric, )",
+          "Microsoft.ReactNative.Cxx": "[0.78.14-Fabric, )",
+          "Microsoft.VCRTForwarders.140": "[1.0.2-rc, )",
+          "Microsoft.WindowsAppSDK": "[1.7.250401001, )",
+          "boost": "[1.83.0, )"
+        }
+      },
+      "rnsvg": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.ReactNative": "[0.78.14-Fabric, )",
+          "Microsoft.ReactNative.Cxx": "[0.78.14-Fabric, )",
           "Microsoft.VCRTForwarders.140": "[1.0.2-rc, )",
           "Microsoft.WindowsAppSDK": "[1.7.250401001, )",
           "boost": "[1.83.0, )"
@@ -75,10 +85,11 @@
         "dependencies": {
           "Clipboard": "[1.0.0, )",
           "Microsoft.JavaScript.Hermes": "[0.0.0-2505.2001-0e4bc3b9, )",
-          "Microsoft.ReactNative": "[0.78.15-Fabric, )",
-          "Microsoft.ReactNative.Cxx": "[0.78.15-Fabric, )",
+          "Microsoft.ReactNative": "[0.78.14-Fabric, )",
+          "Microsoft.ReactNative.Cxx": "[0.78.14-Fabric, )",
           "Microsoft.VCRTForwarders.140": "[1.0.2-rc, )",
           "Microsoft.WindowsAppSDK": "[1.7.250401001, )",
+          "RNSVG": "[1.0.0, )",
           "ReactNativeAsyncStorage": "[1.0.0, )",
           "boost": "[1.83.0, )"
         }
@@ -97,8 +108,8 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.VCRTForwarders.140": {
         "type": "Transitive",
@@ -124,8 +135,8 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.VCRTForwarders.140": {
         "type": "Transitive",
@@ -151,8 +162,8 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.VCRTForwarders.140": {
         "type": "Transitive",
@@ -178,8 +189,8 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.VCRTForwarders.140": {
         "type": "Transitive",
@@ -205,8 +216,8 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.VCRTForwarders.140": {
         "type": "Transitive",
@@ -232,8 +243,8 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.VCRTForwarders.140": {
         "type": "Transitive",
@@ -259,8 +270,8 @@
       },
       "Microsoft.ReactNative": {
         "type": "Transitive",
-        "resolved": "0.78.15-Fabric",
-        "contentHash": "/2YDYBi7sTqMKRhiXum//77n38fwVym6Aj3p5G/u4QatitV8Z22MVv319FEuQ8suI5qz2qAxYpiPYsUYrO7CZw=="
+        "resolved": "0.78.14-Fabric",
+        "contentHash": "KcsI2MLHH44fxo3xv8x24Et0SHVGY9qg7QVkLVkQdovPCAkJWnYvSqOl8lxNW1WCQ3zGeRhbs6WgNCAvWhMjVQ=="
       },
       "Microsoft.VCRTForwarders.140": {
         "type": "Transitive",

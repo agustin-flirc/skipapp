@@ -17,7 +17,8 @@
     "react": "19.0.0",
     "react-native": "0.78.3",
     "react-native-macos": "^0.78.6",
-    "react-native-windows": "^0.78.0"
+    "react-native-svg": "15.12.1",
+    "react-native-windows": "0.78.14"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

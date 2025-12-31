@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This project was created with react-native-windows 0.78.15 -->
+<!-- This project was created with react-native-windows 0.78.14 -->
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(SolutionDir)\ExperimentalFeatures.props" Condition="Exists('$(SolutionDir)\ExperimentalFeatures.props')" />
   <PropertyGroup Label="Globals">
     <CppWinRTOptimized>true</CppWinRTOptimized>
     <MinimalCoreWin>true</MinimalCoreWin>
-    <ProjectGuid>{D0A5988D-69F0-4534-8D4C-C959FFA7EFDF}</ProjectGuid>
+    <ProjectGuid>{E149CA75-63E6-45D2-BC22-9910BBB3BCF2}</ProjectGuid>
     <ProjectName>skipapp</ProjectName>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>skipapp</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
     <AppxPackage>false</AppxPackage>
